@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/Landing_Page_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    padding:0 63vw 10vh 0;
+}
+
+.content h1,h3,h4{
+    color: gold;
+}
+
+.content{
+    text-align: center;
+    padding-right: 64vw;
+}
+
+.button-container {
+    padding-right: 65vw;
+    text-align:left;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: gold;
+    font-size: 1rem;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: gold;
+    color: black;
+}
